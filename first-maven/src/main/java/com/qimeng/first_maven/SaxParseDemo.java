@@ -21,6 +21,7 @@ public class SaxParseDemo {
 		// 设置内容处理器  
         BeanListHandler handler = new BeanListHandler();  
         reader.setContentHandler(handler);
+        System.out.println("hello world");
 	}
 
 }
